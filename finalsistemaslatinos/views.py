@@ -1,7 +1,7 @@
 from django.shortcuts import render # type: ignore
 from django.http import HttpResponse
-from sistemaslatinos.models import Curso
 from django.template import loader
+from sistemaslatinos.models import Curso
 from sistemaslatinos.forms import Curso_formulario, UserEditForm
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth import authenticate, login 

@@ -1,5 +1,5 @@
 """
-ASGI config for sistemaslatinos project.
+ASGI config for finalsistemaslatinos project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sistemaslatinos.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'finalsistemaslatinos.settings')
 
 application = get_asgi_application()
